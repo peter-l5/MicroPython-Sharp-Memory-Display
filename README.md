@@ -51,7 +51,7 @@ In addition to all MicroPython's framebuffer drawing methods, the following meth
 ### Example usage
 ```
     from machine import Pin, SPI
-    import sharp
+    import sharp_mlcd
 
     spi0 = SPI(0, baudrate=2_000_000, sck=Pin(18), mosi=Pin(19), miso=Pin(16))
     display = sharp_mlcd.SharpMemoryDisplay(400, 240, spi0, cs=Pin(15, Pin.OUT))
