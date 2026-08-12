@@ -61,7 +61,7 @@ In addition to all MicroPython's framebuffer drawing methods, the following meth
     display.text('driver', 0, 8, 1)
     display.show()
 ```
-See [demo example](/sharp_mlcd demo.py) for more details. (The example code was written for 400x240 displays.)
+See [demo example](</sharp_mlcd demo.py>) for more details. (The example code was written for 400x240 displays.)
 
 ## Tested displays 
 
